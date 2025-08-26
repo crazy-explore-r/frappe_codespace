@@ -11,6 +11,7 @@ fi
 rm -rf /workspaces/frappe_codespace/.git
 
 source /home/frappe/.nvm/nvm.sh
+nvm install 22
 nvm alias default 22
 nvm use 22
 
